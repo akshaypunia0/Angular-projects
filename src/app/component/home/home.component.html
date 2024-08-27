@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="home-container">
+        <div class="name-img">
+            <div class="image">
+                <img src="https://avatars.githubusercontent.com/u/96934564?v=4" alt="">
+            </div>
+            <div class="name-id">
+                <div class="name">
+                    {{MyData.name}}
+                </div>
+                <div class="uid">
+                    uid: {{MyData.id}}
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <div class="bio">
+            <h3>My bio: {{MyData.bio}}</h3>
+                <h4>Location: {{MyData.location}}</h4>
+                <h4>Followers: {{MyData.followers}}</h4>
+                <h4>Following: {{MyData.following}}</h4>
+                <h4>Created at: {{MyData.created_at}}</h4>
+                <h4>Updated at: {{MyData.updated_at}}</h4>
+            </div>
+        </div>
+        <!-- <div class="button">
+            <button (click)="getMyData()">Get Data</button>
+        </div> -->
+    </div>
+</div>
+<div class="information">
+    <h2>I'm getting all the data shown in this profile from the Github REST API.<br>
+        i made this project to learn the process of fetching data from an api <br>
+        into the app and showing it on the webpage.</h2>
+</div>
